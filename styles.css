@@ -1,18 +1,23 @@
+@font-face {
+    font-family: 'HansonBold';
+    src: url('/font/Hanson-Bold.ttf') format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1, 
+h1,
 h3 {
     text-transform: uppercase;
-    font-family: "Hanson", sans-serif;
+    font-family: 'HansonBold', sans-serif;
     line-height: 0.9;
 }
 
 h1 {
-    font-size: clamp(5rem, 22.5, 30rem);
+    font-size: clamp(5rem, 22.5vw, 30rem);
 }
 
 h3 {
@@ -62,4 +67,3 @@ h3 {
     left: 0;
     pointer-events: none;
 }
-
