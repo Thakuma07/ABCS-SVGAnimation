@@ -88,63 +88,21 @@ function stampSmudgeAt(x, y, radius) {
     },
 });
 
-timeline.to(animatedRadius, {
-  current: radius * config.expandMultiplier,
-  duration: config.expandTime,
-  ease: config.expandEase,
-});
+    timeline.to(animatedRadius, {
+        current: radius * config.expandMultiplier,
+        duration: config.expandTime,
+        ease: config.expandEase,
+    });
 
-timeline.to(
-  animatedRadius,
-  {
-    current: 0,
-    duration: config.dissolveTime,
-    ease: config.dissolveEase,
-  },
-  config.dissolveStart,
-);timeline.to(animatedRadius, {
-  current: radius * config.expandMultiplier,
-  duration: config.expandTime,
-  ease: config.expandEase,
-});
-
-timeline.to(
-  animatedRadius,
-  {
-    current: 0,
-    duration: config.dissolveTime,
-    ease: config.dissolveEase,
-  },
-  config.dissolveStart,
-);timeline.to(animatedRadius, {
-  current: radius * config.expandMultiplier,
-  duration: config.expandTime,
-  ease: config.expandEase,
-});
-
-timeline.to(
-  animatedRadius,
-  {
-    current: 0,
-    duration: config.dissolveTime,
-    ease: config.dissolveEase,
-  },
-  config.dissolveStart,
-);timeline.to(animatedRadius, {
-  current: radius * config.expandMultiplier,
-  duration: config.expandTime,
-  ease: config.expandEase,
-});
-
-timeline.to(
-  animatedRadius,
-  {
-    current: 0,
-    duration: config.dissolveTime,
-    ease: config.dissolveEase,
-  },
-  config.dissolveStart,
-);
+    timeline.to(
+        animatedRadius,
+        {
+            current: 0,
+            duration: config.dissolveTime,
+            ease: config.dissolveEase,
+        },
+        config.dissolveStart,
+    );
 }
 
 function update() {
