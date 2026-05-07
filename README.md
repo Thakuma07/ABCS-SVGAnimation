@@ -75,6 +75,10 @@ The effect is achieved by:
 3.  Applying a "gooey" filter to the SVG container to make overlapping circles blend like liquid.
 4.  Using GSAP to animate the radius of the circles (expand then dissolve) before removing them from the DOM.
 
+## 💡 Inspiration
+
+This project was inspired by the interaction design found on [Ashley Brooke's website](https://ashleybrookecs.com/).
+
 ---
 
 Created by [thakuma.dev](https://thakuma.dev)
