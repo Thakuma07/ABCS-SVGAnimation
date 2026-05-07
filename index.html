@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashleybrookeces Smudge Revealer | thakuma.dev</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-content-foreground">
+            <h1>Dig in</h1>
+        </div>
+
+        <div class="hero-content-background">
+            <h3>
+                The things worth finding are nver on the surface. They live in the 
+                parts you almost scrolled past.
+            </h3>
+        </div>
+
+        <svg
+            xmlns="https//www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            class="smude-revealer"
+        >
+            <defs>
+                <filter id="Smudge-goo" >
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="25" />
+                    <feColorMatrix
+                        type="matrix"
+                        values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 60 -14"
+                    />
+                </filter>
+            </defs>
+            <mask id="smudge-mask">
+                <g class="smudge-blobs" filter="url(#smudge-goo)"></g>
+            </mask>
+        </svg>
+    </section>
+    <script type="module" src="/script.js"></script>
+</body>
+</html>
