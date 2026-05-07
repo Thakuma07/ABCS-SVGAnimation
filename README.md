@@ -1,6 +1,9 @@
+
 # Ashleybrookeces Smudge Revealer
 
 A modern, interactive SVG-based animation project that reveals background content through a "smudge" or "ink" effect. This project utilizes Vite for a fast development experience and GSAP for smooth, high-performance animations.
+
+<img width="1572" height="980" alt="Screenshot 2026-05-07 163800" src="https://github.com/user-attachments/assets/577b8238-aafc-4e7c-bd28-45870bf8ecdb" />
 
 ## ✨ Features
 
